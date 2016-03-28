@@ -43,7 +43,5 @@ li[lang=ru] {
 
 - [Сотрудничество](CONTRIBUTING.md)
 - [Список изменений](CHANGELOG.md)
-- [Сотрудничество](CONTRIBUTING.md)
-- [Список изменений](CHANGELOG.md)
 - [Сообщество MediaWiki на CYBERSPACE.Community](//cyberspace.community/#)
 - [Документация MediaWiki на CYBERSPACE.Wiki](//mediawiki.cyberspace.wiki/)
