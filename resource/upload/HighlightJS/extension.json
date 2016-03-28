@@ -1,0 +1,44 @@
+{
+  "name": "HighlightJS",
+  "version": "1.0.0",
+  "author": [
+    "[http://kitsune.solar/ Kitsune Solar]",
+    "[http://cyberspace.industries/ CYBERSPACE.Industries]"
+  ],
+  "url": "",
+  "descriptionmsg": "hljs-ext-desc",
+  "license-name": "[//www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+  "type": "parserhook",
+  "require": {
+    "MediaWiki": ">= 1.25"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": [
+      "HighlightJS::init"
+    ]
+  },
+  "MessagesDirs": {
+    "HighlightJS": [
+      "i18n"
+    ]
+  },
+  "AutoloadClasses": {
+    "HighlightJS": "HighlightJS.body.php"
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteExtPath": ""
+  },
+  "ResourceModules": {
+    "ext.highlightjs": {
+      "scripts": [
+        "js/vendor/highlight/highlight.pack.js",
+        "js/main.js"
+      ],
+      "styles": [
+        "js/vendor/highlight/styles/monokai-sublime.css",
+        "css/main.css"
+      ]
+    }
+  }
+}
