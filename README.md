@@ -37,7 +37,7 @@ li[lang=ru] {
 ## Установка
 
 1. Загрузите папки и файлы из `resource/upload/` (если имеется) в Вашу директорию с расширениями MediaWiki.
-2. В самый низ файла `LocalSettings.php` добавьте строку `wfLoadExtension( 'HighlightJS' );`
+2. В самый низ файла `LocalSettings.php` добавьте строку `wfLoadExtension( 'HighlightJS' );`.
 
 ## Ссылки
 
